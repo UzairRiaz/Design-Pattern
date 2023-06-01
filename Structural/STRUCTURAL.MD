@@ -19,3 +19,9 @@
 
 -   [ ] [Bridge Pattern](./bridge.ts)
         Bridge Design Pattern is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other. It is useful when you need to avoid a permanent binding between an abstraction and its implementation, or when you need to split a monolithic class that has several variants of some functionality (for example, if the class can work with various database servers).
+
+-   [ ] [Composite Pattern](./composite.ts)
+        Composite Design Pattern is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects. It is useful when you need to work with objects that form a tree-like hierarchy, or when you want the client code to treat both simple and complex elements uniformly.
+
+-   [ ] [Proxy Pattern](./proxy.ts)
+        Proxy Design Pattern is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object. It is useful when you need to add a level of indirection to access an object, or when you want to control the access to an object, or when you need to perform additional actions when an object is accessed.
